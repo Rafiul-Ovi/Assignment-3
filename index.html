@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rinterio Housing Design</title>
+    <!-- DaisyUI + Tailwind cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/e186a09cc5.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Manrope font -->
+    <style>
+      .font_manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              text_primary_color: "#212121",
+              text_secondary_color: "#494949",
+              text_tertiary_color: "#737373",
+              btn_first: "#ABEF5F",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- header section -->
+    <header class="md:container mx-auto">
+      <!-- navbar -->
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <button class="bg-btn_first rounded-full px-2 py-1 mr-2">
+              <i class="fa-solid fa-arrow-right -rotate-45"></i>
+            </button>
+            <a
+              class="text-2xl md:text-4xl font-extrabold text-text_primary_color"
+              >Rinterio</a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a class="text-text_secondary_color font-bold">Home</a></li>
+              <li><a class="text-text_tertiary_color">Services</a></li>
+              <li><a class="text-text_tertiary_color">Portfolio</a></li>
+              <li><a class="text-text_tertiary_color">Blogs</a></li>
+              <li><a class="text-text_tertiary_color">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <div class="hidden lg:flex gap-3">
+              <button
+                class="bg-[#E9E9E9] text-text_tertiary_color rounded-full px-3 py-2"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+              <button
+                class="bg-[#E9E9E9] text-text_tertiary_color rounded-full px-3 py-2"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+              </button>
+              <button
+                class="btn bg-btn_first rounded-full text-text_primary_color"
+              >
+                Book Consult
+                <div class="bg-black rounded-full px-2 py-2">
+                  <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
+                </div>
+              </button>
+            </div>
+            <div tabindex="0" role="button" class="btn btn-circle lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h7"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- banner section -->
+      <section></section>
+    </header>
+
+    <!-- main section -->
+    <main></main>
+
+    <!-- footer section -->
+    <footer></footer>
+  </body>
+</html>
